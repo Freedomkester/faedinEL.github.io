@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdgeLedger Site</title>
+    <link rel="stylesheet" href="edl.css">
+    <style>
+        @media screen and (max-width:500px)
+        {
+           
+            .ppl{
+                display:none;
+            }
+            nav{
+                flex-direction: column;
+                align-items: center;
+                height: 8rem;
+            }
+            ul{
+                margin-right:5rem;
+                flex:2;
+                margin-top:0px;
+            }
+            nav h1{
+                margin:0px;
+            }
+            footer{
+                background-color: black;
+                height: 15rem;
+                text-align: center;
+                opacity:.8;
+                color:white;
+                font-size: 1.8rem;
+
+            }
+            footer p{
+                margin-top:0px;
+                margin-left: 1.5rem;
+                padding:5rem;
+                width:70%;
+            }
+        }
+        @media screen and (min-width:501px) and (max-width:768px) {
+            .ppl{
+                display:none;
+            }
+        }
+       
+    </style>
+    
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>
+        <h1>
+            <span id="edge">Edge</span>Ledger
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- home section -->
+     <div class="home" id="home">
+        <div class="cover"></div>
+        <div class="blank">
+        <h1>The Sky Is The Limit</h1>
+        <p>Lorem ipsum dolor sit ame consectetur adipisicing elit. Odio repellat, sapiente nam perferendis ducimus </p>
+        <a href="#" id="rdm">Read more</a>
+        </div>
+    </div>
+
+    <!-- What section -->
+    <div class="what" id="what">
+        <h1 id="head"><span>What</span> We Do</h1>
+
+        <div class="cont">
+        
+        <h1 class="H1">Investment Banking</h1>
+        <p class="ul">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, assumenda!</p>
+        
+
+        
+        <h1 class="H1">Portfolio Management</h1>
+        <p class="ul">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolores.</p>
+        
+
+         
+        <h1 class="H1">Tax & Custodial</h1>
+        <p class="ul">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, provident?</p>
+        
+        
+        </div>
+
+    <!-- Who section -->
+     <div class="who" id="who">
+        <div class="ppl">
+            <img src="img/" alt="">
+        </div>
+        <div class="note">
+        <h1><span id="en1">Who</span> We are</h1>
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Tempora culpa harum voluptas ratione enim consequuntur illo,
+            atque, aut doloribus unde repellendus sit delectus beatae
+            aspernatur placeat corrupti. Ipsa, itaque quas.
+        </p>
+        <h1>Our Team</h1>
+        <p>Faedin Kest:CEO</p>
+        <p>Dalil Hacker:CFO</p>
+        <p>Miracle Amarath:Lead Accountant</p>
+        <p>Big Trinitee:Investment Manager</p>
+        <p>King Isreal: Senior Accountant</p>
+        </div>
+     </div>
+
+     <!-- logo section -->
+     <h1 class="ff"><span class="dd">Our</span> Clients</h1>
+      <div class="logo">
+        <img src="img/logos/logo1.png" alt="">
+        <img src="img/logos/logo2.png" alt="">
+        <img src="img/logos/logo3.png" alt="">
+        <img src="img/logos/logo4.png" alt="">
+        <img src="img/logos/logo5.png" alt="">
+      </div>
+
+      <form action="" id="contact">
+        <h1>Contact Us</h1>
+        <p>Please use the form below to contact us</p>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+        <label for="phone">Phone Number</label>
+        <input type="text" placeholder="Enter Phone Number">
+        <label for="msg">Message</label>
+        <textarea name="msg" id="msg" placeholder="Enter Message"></textarea>
+        <input id="btn" type="submit" value="Send">
+      </form>
+
+      <footer>
+        <p>Copyright &copy; 2019,EdgeLedger, All Rights Reserved</p>
+      </footer>
+</body>
+
+</html>
